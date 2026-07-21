@@ -1,10 +1,7 @@
-const enterButton = document.getElementById("enterBtn");
-const heroButton = document.querySelector(".hero-btn");
-
-enterButton.addEventListener("click", () => {
-    alert("Welcome home, Bebe ❤️");
+document.querySelector(".hero-btn").addEventListener("click", () => {
+    alert("Welcome to Our Little Life ❤️");
 });
 
-heroButton.addEventListener("click", () => {
-    alert("Our journey is just beginning ❤️");
+document.querySelector("nav button").addEventListener("click", () => {
+    alert("Welcome back, Bebe ❤️");
 });
